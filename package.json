@@ -1,0 +1,37 @@
+{
+  "name": "dinata",
+  "version": "1.0.0",
+  "description": "program koneksi ke whatsapp",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "test perintah sukses"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dinataaaa/dinataa.git"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot"
+  ],
+  "author": "reza dinata",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dinataaaa/dinataa/issues"
+  },
+  "homepage": "https://github.com/dinataaaa/dinataa#readme",
+  "dependencies": {
+    "@adiwajshing/baileys": "github:adiwajshing/baileys",
+    "@adiwajshing/keyed-db": "^0.2.4",
+    "cfonts": "^3.1.1",
+    "chalk": "^5.2.0",
+    "chalk-animation": "^2.0.3",
+    "link-preview-js": "^3.0.4",
+    "moment-timezone": "^0.5.40",
+    "mongodb": "^5.0.1",
+    "nodemailer": "^6.9.1",
+    "qrcode": "^1.5.1",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
